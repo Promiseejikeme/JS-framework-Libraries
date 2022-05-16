@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <title>JS libraries/Framework</title>
+</head>
+<body>
+  <nav id="navbar">
+     <header>JS Frameworks/Libraries</header>
+     <ul>
+        <li>
+           <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#Angular">Angular</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#React">React</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#Node.js">Node.js</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#Vue">Vue</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#JQuery">JQuery</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#D3.js">D3.js</a>
+        </li>
+        <li>
+<!--           <a class="nav-link" href="Aurelia">Aurelia</a>
+        </li>
+        <li>
+           <a class="nav-link" href="Redox">Redox</a>
+        </li>
+        <li> 
+           <a class="nav-link" href="Underscore and lodash">Underscore and lodash</a>
+        </li> -->
+        <li>
+           <a class="nav-link" href="#Bootstrap">bootstrap</a>
+        </li>
+        <li>
+           <a class="nav-link" href="#Ember.js">Ember.js</a>
+        </li>
+  </nav>
+  <main id="main-doc">
+   <section class="main-section" id="Introduction">
+     <header>Introduction</header>
+     <article>
+      <p></p>
+     </article>
+   </section>
+   <section class="main-section" id="Angular">
+     <header>Angular</header>
+     <article>
+      <p>One of the most powerful and efficient JavaScript frameworks, Angular is an open-source framework that is used for developing a Single Page Application (SPA). It extends the HTML into the application and interprets the attributes to perform data binding.</p>
+      <h3>Features</h3>
+         <ul>
+            <li><strong>Progressive Web Apps</strong>: Has modern web platform capabilities to deliver app-like experiences that are high performance, offline, and zero-step installation.</li>
+            <li><strong>Desktop</strong>: Desktop-installed apps across Mac, Windows, and Linux can be created using the same Angular methods like the web plus the ability to access native OS APIs.</li>
+            <li><strong>Code Generationz</strong>: Angular turns templates into code that's highly optimized for JavaScript virtual machines, giving hand-written code benefits.</li>
+            <li><strong>Code Splitting</strong>: With the new Component Router, angular apps load quickly, delivering automatic code-splitting.</li>
+         </ul>
+      <h3>Pros</h3>
+         <ul>
+            <li>Open source</li>
+            <li>Single page applications</li>
+            <li>Easier DOM manipulation</li>
+            <li>Two way-binding</li>
+         </ul>
+      <h3>Cons</h3>
+         <ul>
+            <li>Possible performance issues</li>
+            <li>Can get complexfor larger scenarios</li>
+            <li>Some features may be difficult to understand for new comers</li>
+         </ul>
+     </article>
+   </section>
+   <section class="main-section" id="React">
+     <header>React</header>
+     <article>
+      <p>Created by Facebook, the React framework has earned popularity very quickly. It is used to develop and operate the dynamic User Interface of web pages with high incoming traffic. It makes use of a virtual DOM, and hence, integration with any application is more straightforward.</p>
+      <h3>Features</h3>
+         <ul>
+            <li><strong>Declarative</strong>: Creates interactive and dynamic UI for websites and mobile applications. Declarative views make the code readable and easy to debug.</li>
+            <li><strong>Virtual DOM</strong>: For every DOM object, there is a corresponding "virtual DOM object." It creates a virtual copy of the original DOM and is a representation of a DOM object.</li>
+            <li><strong>Event handling</strong>: React has its fully compatible W3C object model event system created. It also provides a cross-browser interface to a native event.</li>
+            <li><strong>JSX</strong>: JSX is a markup syntax that closely resembles HTML. JSX makes writing React components easier by making the syntax almost identical to the HTML injected into the web page.</li>
+         </ul>
+      <h3>Pros</h3>
+         <ul>
+            <li>Easy to learn</li>
+            <li>Reusable Components</li>
+            <li>SEO friendly</li>
+            <li>Virtual DOM</li>
+         </ul>
+         <h3>Cons</h3>
+         <ul>
+            <li>Documentation may be an issue</li>
+            <li>JSX is a double edged-sword</li>
+         </ul>
+         <code>
+            <strong>Below is an example of a React code</strong>
+            <p>class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}</p>
+         </code>
+     </article>
+   </section>
+   <section class="main-section" id="Node.js">
+     <header>Node.js</header>
+     <article>
+        <p>Node.js is a server-side JavaScript run-time environment, which works on cross platforms and is open-source. The framework is capable of driving asynchronous I/O with its event-driven architecture. It works in the JavaScript Runtime environment and shows JAVA's similar properties like threading, packaging, and forming loops.</p>
+        <h3>Features</h3>
+         <ul>
+            <li><strong>Fast</strong>: The library of Node.js is fast when it comes to code execution, as it is built on the V8 JavaScript engine of Google Chrome.</li>
+            <li><strong>Asynchronous and Event-Driven I/O</strong>: All the APIs are asynchronous, which means that its server does not wait for the API to come back with data.</li>
+            <li><strong>Single-threaded</strong>: Node.js, along with event looping, follows a single-threaded model.</li>
+            <li><strong>Open source</strong>: Being open-source, Node.js community has come up with several amazing models that can be used to add more capabilities to the Node.js applications.</li>
+         </ul>
+         <code>
+            <strong>Below is an example of a Node.js code</strong>
+            <p>var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);</p>
+         </code>
+     </article>
+   </section>
+   <section class="main-section" id="Vue">
+     <header>Vue</header>
+     <article>
+      <p>Though developed in the year 2016, this JavaScript framework has already made its way into the market and has proven its worth by offering numerous features. Its dual integration mode is one of the most attractive features for creating a high-end SPA. It is a reliable platform for cross-platform development.</p>
+      <h3>Features</h3>
+         <ul>
+            <li><strong>Virtual DOM</strong>: Vue.js utilizes a virtual DOM, a clone of the principal DOM element</li>
+            <li><strong>Data Binding</strong>: This feature facilitates the manipulation or assignment of values to HTML attributes.</li>
+            <li><strong>CSS Transitions and Animations</strong>: Vue has several methods to apply a transition to HTML elements when added, updated, or removed from the DOM.</li>
+            <li><strong>Template</strong>: Vue provides HTML-based templates that bind the DOM with the Vue.js instance data. The templates are compiled into Virtual DOM Render functions.</li>
+         </ul>
+      <h3>Pros</h3>
+         <ul>
+            <li>Lightweight</li>
+            <li>Fast</li>
+            <li>Extensive documentation</li>
+            <li>Reactive two-way binding</li>
+         </ul>
+      <h3>Pros</h3>
+         <ul>
+            <li>Comparatively fewer components</li>
+            <li>Overflexibilty</li>
+            <li>Lack of support for Large scale projects</li>
+            <li>Reactive two-way binding</li>
+         </ul>
+     </article>
+   </section>
+   <section class="main-section" id="JQuery">
+      <header>JQuery</header>
+      <article>
+         <p>In the JavaScript world, jQuery is still, by far, one of the most prolific and popular JavaScript libraries out there. It was released in 2006 by John Resig and has been used in websites throughout the world. jQuery is used by 95.4% of all the websites whose JS library we know, which is 78.4% of all websites. That’s hundreds of millions (if not billions) of websites.</p>
+         <p>So what is jQuery? jQuery is a library used primarily for Document Object Model (DOM) manipulation. The DOM is a tree-like structure that represents all elements on a webpage.</p>
+         <h3>Pros</h3>
+         <ul>
+            <li>Super easy to use; short learning curve</li>
+            <li>Cross-browser compatibilty</li>
+            <li>Highly flexible</li>
+         </ul>
+         <h3>Cons</h3>
+         <ul>
+            <li>Can sometimes lead to code that is difficult to debug</li>
+            <li>Slower than CSS</li>
+            <li>You can do similar things in plain JS</li>
+         </ul>
+      </article>
+   </section>
+   <section id="D3.js" class="main-section">
+      <header>D3.js</header>
+      <article>
+            <p>D3.js is a JavaScript library for visualizing data. This library was developed in 2011 from a previous project called Protovis. Mike Bostock, Jeff Heer, and Vadim Ogievetsky developed D3.js to be more expressive than its predecessor and more compliant with current web standards.
+            </p>
+            <p>D3.js is a great tool when creating custom visualizations. This could be something as simple as a bar chart, or as complex as a 3D surface plot. The library has a powerful API that uses selectors, much like the ones you would see in jQuery. After selecting an element in the DOM you can do all sorts of transitions and manipulations.</p>
+         <h3>Pros</h3>
+         <ul>
+            <li>Easy to customize; lots of ways to visualize data</li>
+            <li>Huge community backing it</li>
+            <li>Reusable components</li>
+         </ul>
+         <h3>Cons</h3>
+         <ul>
+            <li>Steep initial learning curve</li>
+            <li>Poor Documentation</li>
+            <li>Difficult for creaative visulization</li>
+         </ul>
+         <code>
+            <strong>Below is an example of Boostrap</strong>
+            <p></p>
+         </code>
+      </article>
+   </section>
+   <section id="Bootstrap" class="main-section">
+      <header>Bootstrap</header>
+      <article>
+         <p>Bootstrap is an open-source front-end framework to help you with designing websites. On the Bootstrap website, the tagline is “Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web”.</p>
+         <p>It was originally named Twitter Blueprint and was developed by Mark Otto and Jacob Thornton while they worked at Twitter. Its first initial release was in 2011.</p>
+         <h3>Pros</h3>
+         <ul>
+            <li>Easy to use</li>
+            <li>Encourages consistency in code</li>
+            <li>Helps create responsive mobile friendly website</li>
+         </ul>
+         <h3>Cons</h3>
+         <ul>
+            <li>All Bootstrap websites look similar; can be easily recognizable.</li>
+            <li>Can lead to slower loading times</li>
+            <li>Not always easy tomake customizable</li>
+         </ul>
+         <code>
+            <strong>Below is an example of Boostrap</strong>
+            <p></p>
+         </code>
+      </article>
+   </section>
+   <section id="Ember.js" class="main-section">
+      <header>Ember.js</header>
+      <article>
+         <p>Ember.js arrived in 2015, and since then, it has gained popularity with its wide application area. The features of Ember.js support two-way data binding and this makes it a reliable platform for handling complicated User Interfaces. Popular websites like LinkedIn, Netflix, and Nordstrom use Ember.js for their websites.Ember.js arrived in 2015, and since then, it has gained popularity with its wide application area. The features of Ember.js support two-way data binding and this makes it a reliable platform for handling complicated User Interfaces. Popular websites like LinkedIn, Netflix, and Nordstrom use Ember.js for their websites.</p>
+         <h3>Features</h3>
+         <ul>
+            <li>Ease of use: Create usable web applications that are easy to maintain.</li>
+            <li>HTML and CSS features: It offers HTML and CSS of the development model at the core</li>
+            <li>Instance initializers: Ember provides instance initializers for classes</li>
+            <li>Routes: Ember.js offers routes that are core features used for managing the URL.</li>
+         </ul>
+         <h3>Pros</h3>
+         <ul>
+            <li>Ember CLL</li>
+            <li>Good selection of add-ons</li>
+            <li>Extensive documentation andgood community engagement</li>
+         </ul>
+         <h3>Cons</h3>
+         <ul>
+            <li>Can be difficult to learn</li>
+            <li>Highly opinionated framework</li>
+            <li>Not suitable for smaller projects</li>
+         </ul>
+         <code>
+            <strong>Below is an example of Boostrap</strong>
+            <p></p>
+         </code>
+      </article>
+   </section>
+
+  </main>
+  <footer>Reference</footer>
+</body>
+</html>
